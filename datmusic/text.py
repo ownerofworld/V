@@ -9,17 +9,23 @@ import random
 from telegram import ParseMode
 from telegram.ext import ConversationHandler
 
-START_TEXT = """
-Usage: search music by typing {bot_name} in a chat.
+START_TEXT = """ Welcome to High Quality Songs Bot.
+✌️This Bot Will Help You To Listen Songs via inline mode on Telegram
 
-/about - to see about page
+/about - Click About to See Steps on How To Use This
 
-Subscribe to news: https://telegram.me/datmusicnews
+Join Support at @MenheraChanSupport
 """
 
 ABOUT_TEXT = """<b>{bot_name} version {version}</b>
-Created by @alashow
-Source code is available at <a href="https://github.com/alashow/datmusicbot">github</a>."""
+Created by @TheDarkW3b
+❤️Steps To Use
+1.On ANY chat Just Write Our Bot Username That is @HighQualitySongs and after that put the song name You Need.
+2.Click on The Song Name
+3.Just play It and Enjoy🔥
+Example :- @HighQualitySongs Dance Monkey
+
+🙏Don't Forget To Donate If You Like My Work """
 
 # derived from https://github.com/alashow/music/blob/master/js/app.js#L213
 artists = ["2 Cellos", "Agnes Obel", "Aloe Black", "Andrew Belle", "Angus Stone", "Aquilo", "Arctic Monkeys",
